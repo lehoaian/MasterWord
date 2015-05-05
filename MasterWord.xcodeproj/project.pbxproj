@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8EB676C1AF8C6EA004FB369 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EB676B1AF8C6EA004FB369 /* AppDelegate.m */; };
+		E8EB676E1AF8C6EA004FB369 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EB676D1AF8C6EA004FB369 /* main.m */; };
+		E8EB67701AF8C6EA004FB369 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EB676F1AF8C6EA004FB369 /* Images.xcassets */; };
+		E8EB67731AF8C6EA004FB369 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8EB67711AF8C6EA004FB369 /* MainMenu.xib */; };
+		E8EB677F1AF8C6EB004FB369 /* MasterWordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EB677E1AF8C6EB004FB369 /* MasterWordTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8EB67791AF8C6EB004FB369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8EB675D1AF8C6EA004FB369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8EB67641AF8C6EA004FB369;
+			remoteInfo = MasterWord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8EB67651AF8C6EA004FB369 /* MasterWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8EB67691AF8C6EA004FB369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8EB676A1AF8C6EA004FB369 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8EB676B1AF8C6EA004FB369 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8EB676D1AF8C6EA004FB369 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8EB676F1AF8C6EA004FB369 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E8EB67721AF8C6EA004FB369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E8EB67781AF8C6EB004FB369 /* MasterWordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterWordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8EB677D1AF8C6EB004FB369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8EB677E1AF8C6EB004FB369 /* MasterWordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterWordTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8EB67621AF8C6EA004FB369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8EB67751AF8C6EB004FB369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8EB675C1AF8C6EA004FB369 = {
+			isa = PBXGroup;
+			children = (
+				E8EB67671AF8C6EA004FB369 /* MasterWord */,
+				E8EB677B1AF8C6EB004FB369 /* MasterWordTests */,
+				E8EB67661AF8C6EA004FB369 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8EB67661AF8C6EA004FB369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8EB67651AF8C6EA004FB369 /* MasterWord.app */,
+				E8EB67781AF8C6EB004FB369 /* MasterWordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8EB67671AF8C6EA004FB369 /* MasterWord */ = {
+			isa = PBXGroup;
+			children = (
+				E8EB676A1AF8C6EA004FB369 /* AppDelegate.h */,
+				E8EB676B1AF8C6EA004FB369 /* AppDelegate.m */,
+				E8EB676F1AF8C6EA004FB369 /* Images.xcassets */,
+				E8EB67711AF8C6EA004FB369 /* MainMenu.xib */,
+				E8EB67681AF8C6EA004FB369 /* Supporting Files */,
+			);
+			path = MasterWord;
+			sourceTree = "<group>";
+		};
+		E8EB67681AF8C6EA004FB369 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8EB67691AF8C6EA004FB369 /* Info.plist */,
+				E8EB676D1AF8C6EA004FB369 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8EB677B1AF8C6EB004FB369 /* MasterWordTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8EB677E1AF8C6EB004FB369 /* MasterWordTests.m */,
+				E8EB677C1AF8C6EB004FB369 /* Supporting Files */,
+			);
+			path = MasterWordTests;
+			sourceTree = "<group>";
+		};
+		E8EB677C1AF8C6EB004FB369 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8EB677D1AF8C6EB004FB369 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8EB67641AF8C6EA004FB369 /* MasterWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8EB67821AF8C6EB004FB369 /* Build configuration list for PBXNativeTarget "MasterWord" */;
+			buildPhases = (
+				E8EB67611AF8C6EA004FB369 /* Sources */,
+				E8EB67621AF8C6EA004FB369 /* Frameworks */,
+				E8EB67631AF8C6EA004FB369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasterWord;
+			productName = MasterWord;
+			productReference = E8EB67651AF8C6EA004FB369 /* MasterWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8EB67771AF8C6EB004FB369 /* MasterWordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8EB67851AF8C6EB004FB369 /* Build configuration list for PBXNativeTarget "MasterWordTests" */;
+			buildPhases = (
+				E8EB67741AF8C6EB004FB369 /* Sources */,
+				E8EB67751AF8C6EB004FB369 /* Frameworks */,
+				E8EB67761AF8C6EB004FB369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8EB677A1AF8C6EB004FB369 /* PBXTargetDependency */,
+			);
+			name = MasterWordTests;
+			productName = MasterWordTests;
+			productReference = E8EB67781AF8C6EB004FB369 /* MasterWordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8EB675D1AF8C6EA004FB369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "An Le";
+				TargetAttributes = {
+					E8EB67641AF8C6EA004FB369 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					E8EB67771AF8C6EB004FB369 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = E8EB67641AF8C6EA004FB369;
+					};
+				};
+			};
+			buildConfigurationList = E8EB67601AF8C6EA004FB369 /* Build configuration list for PBXProject "MasterWord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8EB675C1AF8C6EA004FB369;
+			productRefGroup = E8EB67661AF8C6EA004FB369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8EB67641AF8C6EA004FB369 /* MasterWord */,
+				E8EB67771AF8C6EB004FB369 /* MasterWordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8EB67631AF8C6EA004FB369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8EB67701AF8C6EA004FB369 /* Images.xcassets in Resources */,
+				E8EB67731AF8C6EA004FB369 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8EB67761AF8C6EB004FB369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8EB67611AF8C6EA004FB369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8EB676E1AF8C6EA004FB369 /* main.m in Sources */,
+				E8EB676C1AF8C6EA004FB369 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8EB67741AF8C6EB004FB369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8EB677F1AF8C6EB004FB369 /* MasterWordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8EB677A1AF8C6EB004FB369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8EB67641AF8C6EA004FB369 /* MasterWord */;
+			targetProxy = E8EB67791AF8C6EB004FB369 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8EB67711AF8C6EA004FB369 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8EB67721AF8C6EA004FB369 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8EB67801AF8C6EB004FB369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E8EB67811AF8C6EB004FB369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E8EB67831AF8C6EB004FB369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MasterWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8EB67841AF8C6EB004FB369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MasterWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8EB67861AF8C6EB004FB369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MasterWordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasterWord.app/Contents/MacOS/MasterWord";
+			};
+			name = Debug;
+		};
+		E8EB67871AF8C6EB004FB369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MasterWordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasterWord.app/Contents/MacOS/MasterWord";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8EB67601AF8C6EA004FB369 /* Build configuration list for PBXProject "MasterWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8EB67801AF8C6EB004FB369 /* Debug */,
+				E8EB67811AF8C6EB004FB369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8EB67821AF8C6EB004FB369 /* Build configuration list for PBXNativeTarget "MasterWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8EB67831AF8C6EB004FB369 /* Debug */,
+				E8EB67841AF8C6EB004FB369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E8EB67851AF8C6EB004FB369 /* Build configuration list for PBXNativeTarget "MasterWordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8EB67861AF8C6EB004FB369 /* Debug */,
+				E8EB67871AF8C6EB004FB369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8EB675D1AF8C6EA004FB369 /* Project object */;
+}

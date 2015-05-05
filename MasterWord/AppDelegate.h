@@ -10,6 +10,13 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+// Search by Username Search Field
+@property (weak) IBOutlet NSSearchField *txtSearchByUsrName;
+
+// UsrName seaerch field handler
+- (IBAction)searchByUsrName:(id)sender;
+
+- (IBAction)controlTextDidEndEditing:(NSNotification *)aNotification;
 
 @end
 
